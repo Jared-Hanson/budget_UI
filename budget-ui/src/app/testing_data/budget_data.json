@@ -1,0 +1,196 @@
+{
+    "budget": {
+        "to_be_assigned": 500.00,
+        "total_assigned": 75.00,
+        "total_leftover_from_last": 300,
+        "previous_assignments": {
+            "fill_target": 0.00,
+            "assigned_last_month": 0.00,
+            "spent_last_month": 0.00,
+            "average_assigned_ytd": 0.00,
+            "average_spent_ytd": 0.00
+        },
+        "categories": {
+            "Miscellaneous": {
+                "parent_group": "Other",
+                "assigned": 35.00,
+                "available_funds": 30.00,
+                "total_funds": 35.00,
+                "leftover_from_last_month": 0.00,
+                "activity": 5.00,
+                "status_info": "Underfunded",
+                "activity_transaction_ids": [],
+                "target": null,
+                "previous_assignments": {
+                    "fill_target": 0.00,
+                    "assigned_last_month": 231.10,
+                    "spent_last_month": 0.00,
+                    "average_assigned_ytd": 0.00,
+                    "average_spent_ytd": 0.00
+                },
+                "notes": ""
+            },
+            "House Fund": {
+                "parent_group": "Other",
+                "assigned": 20.00,
+                "available_funds": 20.00,
+                "leftover_from_last_month": 20.00,
+                "activity": 0.00,
+                "total_funds": 40.00,
+                "status_info": "Underfunded",
+                "activity_transaction_ids": [],
+                "target": {
+                    "target_amount": 20.00
+                },
+                "previous_assignments": {
+                    "fill_target": 20.00,
+                    "assigned_last_month": 34.50,
+                    "spent_last_month": 30.25,
+                    "average_assigned_ytd": 20.00,
+                    "average_spent_ytd": 18.50
+                },
+                "notes": ""
+            },
+            "School Work": {
+                "parent_group": "Other",
+                "assigned": 0.00,
+                "available_funds": 0.00,
+                "leftover_from_last_month": 0.00,
+                "activity": 0.00,
+                "total_funds": 0.00,
+                "status_info": "Underfunded",
+                "activity_transaction_ids": [],
+                "target": null,
+                "previous_assignments": {
+                    "fill_target": 0.00,
+                    "assigned_last_month": 0.00,
+                    "spent_last_month": 0.00,
+                    "average_assigned_ytd": 0.00,
+                    "average_spent_ytd": 0.00
+                },
+                "notes": ""
+            },
+            "To Be Repaid": {
+                "parent_group": "Other",
+                "assigned": 20.00,
+                "available_funds": 20.00,
+                "total_funds": 25.00,
+                "leftover_from_last_month": 5.00,
+                "activity": 5.00,
+                "status_info": "Underfunded",
+                "activity_transaction_ids": [],
+                "target": {
+                    "target_amount": 30.00
+                },
+                "previous_assignments": {
+                    "fill_target": 0.00,
+                    "assigned_last_month": 0.00,
+                    "spent_last_month": 0.00,
+                    "average_assigned_ytd": 0.00,
+                    "average_spent_ytd": 0.00
+                },
+                "notes": ""
+            },
+            "Rent": {
+                "parent_group": "Bills",
+                "assigned": 0.00,
+                "available_funds": 0.00,
+                "total_funds": 0.00,
+                "leftover_from_last_month": 0.00,
+                "activity": 0.00,
+                "status_info": "Underfunded",
+                "activity_transaction_ids": [],
+                "target": null,
+                "previous_assignments": {
+                    "fill_target": 0.00,
+                    "assigned_last_month": 0.00,
+                    "spent_last_month": 0.00,
+                    "average_assigned_ytd": 0.00,
+                    "average_spent_ytd": 0.00
+                },
+                "notes": ""
+            },
+            "Car insurance": {
+                "parent_group": "Bills",
+                "assigned": 0.00,
+                "available_funds": 0.00,
+                "total_funds": 0.00,
+                "leftover_from_last_month": 0.00,
+                "activity": 0.00,
+                "status_info": "Underfunded",
+                "activity_transaction_ids": [],
+                "target": null,
+                "previous_assignments": {
+                    "fill_target": 0.00,
+                    "assigned_last_month": 0.00,
+                    "spent_last_month": 0.00,
+                    "average_assigned_ytd": 0.00,
+                    "average_spent_ytd": 0.00
+                },
+                "notes": ""
+            },
+            "Electricity": {
+                "parent_group": "Bills",
+                "assigned": 0.00,
+                "available_funds": 0.00,
+                "total_funds": 0.00,
+                "leftover_from_last_month": 0.00,
+                "activity": 0.00,
+                "status_info": "Underfunded",
+                "activity_transaction_ids": [],
+                "target": null,
+                "previous_assignments": {
+                    "fill_target": 0.00,
+                    "assigned_last_month": 0.00,
+                    "spent_last_month": 0.00,
+                    "average_assigned_ytd": 0.00,
+                    "average_spent_ytd": 0.00
+                },
+                "notes": ""
+            },
+            "Gas": {
+                "parent_group": "Bills",
+                "assigned": 0.00,
+                "available_funds": 0.00,
+                "total_funds": 0.00,
+
+
+                "leftover_from_last_month": 0.00,
+                "activity": 0.00,
+                "status_info": "Underfunded",
+                "activity_transaction_ids": [],
+                "target": null,
+                "previous_assignments": {
+                    "fill_target": 0.00,
+                    "assigned_last_month": 0.00,
+                    "spent_last_month": 0.00,
+                    "average_assigned_ytd": 0.00,
+                    "average_spent_ytd": 0.00
+                },
+                "notes": ""
+            }
+        },
+        "parent_categories": [
+            {
+                "id": 1,
+                "name": "Other",
+                "subcategories": [
+                    "Miscellaneous",
+                    "House Fund",
+                    "School Work",
+                    "To Be Repaid"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Bills",
+                "subcategories": [
+                    "Rent",
+                    "Electricity",
+                    "Car insurance",
+                    "Gas"
+                ]
+            }
+        ]
+    }
+}

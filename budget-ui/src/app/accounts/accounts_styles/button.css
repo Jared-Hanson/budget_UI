@@ -1,0 +1,30 @@
+
+/* CSS for Cancel button */
+.cancel-button, .submit-button{
+    border-radius: 10px; /* Rounded corners */
+    padding: 3px 20px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 0 5px;
+    font-weight: 500;
+}
+
+.cancel-button {
+    background-color: #D5DEFD; /* Background color */
+    color: #3566c7; /* Text color */
+    border: 1px solid #3566c7; /* Border color */
+  }
+  
+  .cancel-button:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+  }
+  
+  /* CSS for Enter Now button */
+  .submit-button {
+    background-color: #3566c7; /* Background color */
+    color: white; /* Text color */
+    border: 1px solid #3566c7; /* Border color */
+  }
+  
+  .submit-button:hover {
+    background-color: #2d5aab; /* Background color on hover */
+  }

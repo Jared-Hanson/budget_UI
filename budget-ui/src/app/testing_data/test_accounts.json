@@ -1,0 +1,53 @@
+{
+    "accounts": {
+        "123": {
+            "account_id": 123,
+            "account_name": "Chase Checking",
+            "cleared_balance": 20245.86,
+            "uncleared_balance": 235.65,
+            "working_balance": 20100.21,
+            "transactions": {
+                "1" : {
+                    "transaction_id": 1,
+                    "parent_account_id": 123,
+                    "transaction_account": "Chase Checking",
+                    "transaction_cleared": false,
+                    "transaction_date": "06/16/2024",
+                    "transaction_payee": "Venmo",
+                    "transaction_category": "Other:Miscellaneous",
+                    "transaction_memo": "Test Memo",
+                    "transaction_outflow": 21.34,
+                    "transaction_inflow": null,
+                    "transaction_choices": []
+                    },
+                "2": {
+                    "transaction_id": 2,
+                    "parent_account_id": 123,
+                    "transaction_account": "Chase Checking",
+                    "transaction_cleared": true,
+                    "transaction_date": "06/15/2024",
+                    "transaction_payee": "PWC",
+                    "transaction_category": "Inflow: Ready to Assign",
+                    "transaction_memo": "",
+                    "transaction_outflow": null,
+                    "transaction_inflow": 100.00,
+                    "transaction_choices": []
+                    },
+                "3": {
+                    "transaction_id": 3,
+                    "parent_account_id": 123,
+                    "transaction_account": "Chase Checking",
+                    "transaction_cleared": true,
+                    "transaction_date": "06/14/2024",
+                    "transaction_payee": "Refund: AZFG023",
+                    "transaction_category": "Other:Home Goods",
+                    "transaction_memo": "",
+                    "transaction_outflow": 22.22,
+                    "transaction_inflow": null,
+                    "transaction_choices": ["Other:Office", "Other:Home Goods", "Other:fatso"]
+                    }
+                }
+                
+            }
+        }
+    }

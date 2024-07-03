@@ -1,0 +1,10 @@
+
+.transaction-container {
+    border-collapse: collapse;
+    overflow: auto;
+  }
+
+  .transaction-header {
+    background-color: #a4a7af;
+    font-weight: 500;
+  }

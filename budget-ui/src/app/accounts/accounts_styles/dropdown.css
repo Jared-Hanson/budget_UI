@@ -1,0 +1,26 @@
+.dropdown-container {
+  position: absolute;
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: white;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.category-group {
+  padding: 8px;
+}
+
+.group-header {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.category-item {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.category-item:hover, .category-item.highlighted {
+  background-color: #fddbdb;
+}

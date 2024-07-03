@@ -1,0 +1,69 @@
+.transaction-row {
+    display: flex;
+    align-items: center;
+    border: 1px solid #D2D8DE;
+    height: 40px; 
+    overflow: hidden;
+    font-weight: 300;
+  }
+
+.plain-row{
+    background-color: #ffffff;
+}
+
+.expanded-row{
+    background-color: #D5DEFD;
+}
+
+.empty-cell{
+    margin-right: auto
+}
+
+.transaction-cell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+  
+  .cell-1-account {
+    width: 10%;
+    min-width: 100px; 
+  }
+  
+  .cell-2-date {
+    width: 10%;
+    min-width: 100px; 
+  }
+  
+  .cell-3-payee {
+    width: 15%;
+    min-width: 150px;
+  }
+  
+  .cell-4-category {
+    width: 15%;
+    min-width: 150px; 
+  }
+
+  .cell-5-memo {
+    width: 20%;
+    min-width: 200px; 
+  }
+  
+  .cell-6-outflow {
+    width: 15%;
+    min-width: 150px; /* Set your desired min-width */
+  }
+
+  .cell-8-inflow {
+    width: 15%;
+    min-width: 150px; /* Set your desired min-width */
+  }
+  
+  /* Parent container CSS to handle horizontal scrolling */
+  .transaction-row-container {
+    overflow-x: auto;
+  }

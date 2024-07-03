@@ -1,0 +1,96 @@
+.category {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #dad7d7;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+  }
+  
+  .category-name {
+    display: flex;
+    align-items: center;
+  }
+  .name-and-progress-bar {
+    width: 60%;
+    min-width: 200px;
+  }
+  .category-name input[type="checkbox"] {
+    width: 5%;
+  }
+  
+  .category-progress {
+    position: relative;
+    margin-top: 5px;
+    padding-left: 12px;
+  }
+
+  .progress-bar-container {
+    height: 7px;
+    border-radius: 5px;
+    background-color: grey; /* Secondary color */
+    overflow: hidden; /* Ensure inner div doesn't overflow */
+    position: relative;
+  }
+  
+  .progress-bar {
+    height: 7px;
+    border-radius: 5px;
+  }
+  
+  .category-info {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .category-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    padding: 10px;
+    padding-left: 20px;;
+    box-sizing: border-box;
+  }
+  
+  .assignment-field {
+    cursor: pointer;
+    display: inline-block;
+    width: 50%; /* Makes sure input takes the entire width of its parent */
+    box-sizing: border-box;
+  }
+  
+  .assignment-field input {
+    display: inline-block;
+    width: 50%; /* Makes sure input takes the entire width of its parent */
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .spending-field {
+    width: 25%;
+  }
+  .spending-field span {
+    cursor: pointer;
+
+  }
+  
+  .spending-field span:hover {
+    background-color: #d5f1f3;
+  }
+  .available-field {
+    width: 25%;
+    display: flex;
+    padding-right: 10px;
+  }
+
+  .available-field span {
+    background-color: #eee;
+    border-radius: 10px;
+    margin-left: auto;
+    width: 60%;
+    text-align: center;
+  }
